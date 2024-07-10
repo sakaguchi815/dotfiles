@@ -2,12 +2,11 @@
 
 {
   imports = [
-    ./fcitx5
-    # ./i3
-    # ./programs
-    # ./rofi
-    ./shell
+    ./nushell
+    ./alacritty.nix
+    ./fcitx5.nix
     ./git.nix
+    ./starship.nix
   ];
 
   home = {
