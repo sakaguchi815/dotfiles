@@ -4,7 +4,7 @@ deploy:
   sudo nixos-rebuild switch --flake .#desktop
 
 up:
-  nix flake update
+  sudo nix flake update
 
 gc:
   sudo nix store gc --debug

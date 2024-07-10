@@ -17,5 +17,6 @@
      ripgrep
      bat
      eza
+     just
    ]; 
 }
