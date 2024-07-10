@@ -7,8 +7,9 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
       ./sys
+      ./xmonad
+      ./hardware-configuration.nix
     ];
 
   networking.hostName = "nixos"; # Define your hostname.
@@ -22,7 +23,6 @@
   networking.networkmanager.enable = true;
 
   # Nvidia
-  
   services.xserver.videoDrivers = ["nvidia"];
   hardware.graphics.enable = true;
   hardware.nvidia = {
@@ -73,7 +73,6 @@
   services.xserver.enable = true;
 
   # Enable the XFCE Desktop Environment.
-  services.xserver.displayManager.lightdm.enable = true;
   services.xserver.desktopManager.xfce.enable = true;
 
   # Configure keymap in X11
