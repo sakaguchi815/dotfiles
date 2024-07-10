@@ -6,6 +6,7 @@
     ./alacritty.nix
     ./fcitx5.nix
     ./git.nix
+    ./packages.nix
     ./starship.nix
   ];
 
