@@ -8,7 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./sys
-      ./xmonad
+      ./wm
       ./hardware-configuration.nix
     ];
 
