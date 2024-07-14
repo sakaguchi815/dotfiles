@@ -14,6 +14,7 @@
   home.file.".config/rofi" = {
     source = ./rofi;
     recursive = true;
+    executable = true;
   };
 
   home.pointerCursor = 
