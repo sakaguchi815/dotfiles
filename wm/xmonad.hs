@@ -14,6 +14,10 @@ myConfig = def
 	, startupHook = myStartupHook
 	, modMask = myModMask
 	}
+	`additionalKeysP`
+        [ ("M-p", spawn "rofi -show drun")
+        , ("M-<Return>", spawn "alacritty")
+        ]
 
 
 myTerminal = "alacritty"

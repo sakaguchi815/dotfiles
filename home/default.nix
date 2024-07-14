@@ -3,6 +3,7 @@
 {
   imports = [
     ./nushell
+    ./wm
     ./alacritty.nix
     ./fcitx5.nix
     ./git.nix

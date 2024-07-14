@@ -18,8 +18,11 @@
 
   environment.systemPackages = with pkgs; [
     dmenu
+    dunst
     feh
     gmrun
+    picom
+    rofi
     xmobar
   ];
 }
