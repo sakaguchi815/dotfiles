@@ -3,11 +3,11 @@
     discord
     freetube
     gimp
-    neovim
     obsidian
     spotify
     vscode
   ] ++ [
+    neovim
     zip
     unzip
     p7zip

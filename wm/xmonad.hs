@@ -30,6 +30,5 @@ myLayout = spacing 7 $ Tall 1 (3/100) (1/2) ||| Mirror (Tall 1 (3/100) (1/2)) ||
 myStartupHook = do
     spawnOnce "feh --bg-scale ~/Pictures/wallpaper.jpg"
     spawnOnce "xrandr --output HDMI-0 --mode 1920x1080 --rate 143.86"
-    spawnOnce "xrandr --output HDMI-0 --mode 1920x1080 --rate 143.86"
     spawnOnce "dunst"
     spawnOnce "picom -b"
